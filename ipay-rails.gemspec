@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 $:.push File.expand_path("../lib", __FILE__)
-require "ipay-rails/version"
+require "ipay/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "ipay-rails"
